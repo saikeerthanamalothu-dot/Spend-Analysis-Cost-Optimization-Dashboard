@@ -84,16 +84,16 @@ Data-driven recommendations with estimated savings impact presented as an execut
 ## Dashboard Preview
 
 ### Page 1 — Executive Overview
-![Executive Overview](dashboard/page1_executive_overview.png)
+![Executive Overview](page1_executive_overview.png)
 
 ### Page 2 — Supplier Analysis
-![Supplier Analysis](dashboard/page2_supplier_analysis.png)
+![Supplier Analysis](page2_supplier_analysis.png)
 
 ### Page 3 — Maverick Spend Analysis
-![Maverick Spend Analysis](dashboard/page3_maverick_analysis.png)
+![Maverick Spend Analysis](page3_maverick_analysis.png)
 
 ### Page 4 — Savings Opportunities
-![Savings Opportunities](dashboard/page4_savings_opportunities.png)
+![Savings Opportunities](page4_savings_opportunities.png)
 
 ---
 
@@ -102,25 +102,24 @@ Data-driven recommendations with estimated savings impact presented as an execut
 ```
 procurement-spend-analytics/
 ├── README.md
-├── data/
-│   ├── procurement_spend_data.csv        ← Raw dataset
-│   └── procurement_cleaned.csv           ← Cleaned dataset
-├── notebooks/
-│   ├── 01_data_cleaning.ipynb            ← Python cleaning & EDA
-│   └── 02_sql_analysis.ipynb             ← SQL queries & visualizations
-├── dashboard/
-│   ├── procurement_spend_analytics.pbix  ← Power BI dashboard file
-│   ├── page1_executive_overview.png
-│   ├── page2_supplier_analysis.png
-│   ├── page3_maverick_analysis.png
-│   └── page4_savings_opportunities.png
-└── sql/
-    ├── 01_spend_by_category.sql
-    ├── 02_top_suppliers.sql
-    ├── 03_maverick_spend.sql
-    ├── 04_monthly_trend.sql
-    ├── 05_consolidation_opportunity.sql
-    └── 06_price_variance.sql
+├── 01_data_cleaning.ipynb                ← Python cleaning & EDA
+├── 02_sql_analysis.ipynb                 ← SQL queries & visualizations
+├── Spend Analytics & Savings Opportunity Dashboard.pbix  ← Power BI file
+├── procurement_spend_data.csv            ← Raw dataset
+├── procurement_cleaned.csv               ← Cleaned dataset
+├── page1_executive_overview.png          ← Dashboard screenshots
+├── page2_supplier_analysis.png
+├── page3_maverick_analysis.png
+├── page4_savings_opportunities.png
+├── chart1_spend_by_category.png          ← Python EDA charts
+├── chart2_monthly_trend.png
+├── chart3_maverick_by_bu.png
+├── chart4_top_suppliers.png
+├── chart5_contract_split.png
+├── sql_q1_spend_by_category.png          ← SQL output charts
+├── sql_q3_maverick_by_bu.png
+├── sql_q4_monthly_trend.png
+└── sql_q6_price_variance.png
 ```
 
 ---
