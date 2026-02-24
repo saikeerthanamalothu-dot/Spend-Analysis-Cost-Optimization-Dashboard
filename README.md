@@ -1,8 +1,7 @@
-# Procurement Spend Analytics & Savings Opportunity Dashboard
+# Spend Analysis & Cost Optimization Dashboard
 
 **Author:** Sai Keerthana Malothu  
-**Tools:** Python (pandas, matplotlib, seaborn) | PostgreSQL | Power BI | Excel  
-**Domain:** Procurement & Supply Chain Analytics  
+**Tools:** Python (pandas, matplotlib, seaborn) | PostgreSQL | Power BI | Excel
 **Dataset:** Synthetic dataset designed to simulate a real-world mid-size manufacturing procurement environment
 
 ---
