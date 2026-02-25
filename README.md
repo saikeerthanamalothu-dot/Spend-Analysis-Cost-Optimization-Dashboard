@@ -1,7 +1,7 @@
 # Spend Analysis & Cost Optimization Dashboard
 
 **Author:** Sai Keerthana Malothu  
-**Tools:** Python (pandas, matplotlib, seaborn) | PostgreSQL | Power BI | Excel 
+**Tools:** Python (pandas, matplotlib, seaborn) | PostgreSQL | SQL | Power BI | Excel
   **Dataset:** Synthetic dataset designed to simulate a real-world mid-size manufacturing procurement environment
 
 ---
@@ -140,7 +140,7 @@ procurement-spend-analytics/
 
 1. Clone the repository
 ```bash
-git clone https://github.com/saikeerthanamalothu-dot/procurement-spend-analytics.git
+git clone https://github.com/saikeerthanamalothu-dot/Spend-Analysis-Cost-Optimization.git
 ```
 
 2. Install Python dependencies
