@@ -140,7 +140,7 @@ procurement-spend-analytics/
 
 1. Clone the repository
 ```bash
-git clone https://github.com/saikeerthanamalothu-dot/Spend-Analysis-Cost-Optimization.git
+git clone https://github.com/saikeerthanamalothu-dot/Spend-Analysis-Cost-Optimization-Dashboard.git
 ```
 
 2. Install Python dependencies
